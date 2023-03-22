@@ -1,0 +1,21 @@
+* {
+    border: 2px solid red;
+}
+
+.container {
+    align-content: center;
+
+}
+.header {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.header_logo {
+    font-size: 36px;
+    color: #f9faf8;
+}
+
+.title {
+    display: flex;
+}
