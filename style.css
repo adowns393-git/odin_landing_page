@@ -1,21 +1,48 @@
 * {
-    border: 2px solid red;
+    border: 1px solid red;
+    font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background-color: #1F2937;
+    padding: 0;
+    margin: 0;
+}
 .container {
-    align-content: center;
-
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: bisque;
 }
 .header {
     display: flex;
     background-color: #1F2937;
+    margin: 0;
 }
 
 .header_logo {
-    font-size: 36px;
+    font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
+}
+
+.header_links {
+    margin-left: auto;
+    margin-right: 0;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .title {
     display: flex;
+    height: 300px;
+}
+
+.title_info,
+.title_image {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.title_info {
+    margin-right: 50%;
 }
