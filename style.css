@@ -50,9 +50,15 @@ body {
 }
 
 .title_info {
-    margin-right: 50%;
+    margin-right: 20%;
 }
 
+.title_image {
+    height: 200px;
+    width: 1000px;
+    background-color: grey;
+    text-align: center;
+}
 .title_text {
     font: 48px;
     font-weight: extra-bold;
@@ -75,4 +81,31 @@ body {
     font-size: 16px;
     color: #f9faf8;
     box-shadow: black 2px 2px 10px;
+}
+
+.info {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.info_images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_image {
+    border: 2px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.info_title {
+    text-align: center;
+}
+
+.info_images_subtext {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
